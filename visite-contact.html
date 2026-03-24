@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<!--Nom:Matanda
+Prénom:emmanuella.kikosi
+Matricule:20357066-->
+
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visite & Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero-small">
+    <h1 class="visite">Visite & Contact</h1>
+    <p class="slogan">Préparez votre visite et contactez-nous pour toute information.</p>
+  </header>
+
+  <nav>
+    <ul class="menu">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="oeuvres.html">Oeuvres</a></li>
+      <li><a href="galerie.html">Galerie</a></li>
+      <li><a href="visite-contact.html">Visite & Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="visite-page">
+
+    <section class="bloc-visite">
+      <h2 class="information"  >Informations sur la visite</h2>
+
+      <p class="exposition">
+        Cette exposition virtuelle explore l’art de la décoration événementielle
+        à travers différentes cultures du monde. Elle présente des inspirations
+        venant d’événements comme les mariages, carnavals, événements commémoratifs,
+        baby showers et réceptions festives.
+      </p>
+
+      <table class="table-horaires">
+        <caption  class="titre-tableau">Horaires de consultation</caption>
+        <tr>
+          <th>Jour de la semaine</th>
+          <th>Heure</th>
+        </tr>
+        <tr>
+          <td>Lundi</td>
+          <td>10h35 - 18h20</td>
+        </tr>
+        <tr>
+          <td>Mardi</td>
+          <td>10h45 - 18h25</td>
+        </tr>
+        <tr>
+          <td>Mercredi</td>
+          <td>9h15 - 21h05</td>
+        </tr>
+        <tr>
+          <td colspan="2"  class="ligne-note">Pause de 5 minutes entre chaque consultation successive.</td>
+        </tr>
+        <tr>
+          <td>Jeudi</td>
+          <td>15h30 - 23h45</td>
+        </tr>
+        <tr>
+          <td>Vendredi</td>
+          <td>8h15 - 22h25</td>
+        </tr>
+        <tr>
+          <td>Samedi</td>
+          <td>3h00 - 19h10</td>
+        </tr>
+        <tr>
+          <td>Dimanche</td>
+          <td>Sur réservation</td>
+        </tr>
+      </table>
+
+      <div class="infos-extra">
+        <p><strong>Adresse :</strong> 1250, Avenue des Arts, Montréal, Québec</p>
+        <p><strong>Tarif :</strong> 12$ adulte - 8$ étudiant - gratuit pour les moins de 10 ans</p>
+        <p><strong>Réservation :</strong> recommandée pour les visites guidées virtuelles du week-end</p>
+      </div>
+    </section>
+
+    <section class="bloc-contact">
+      <h2>Contact</h2>
+
+      <p><strong>Téléphone :</strong> (514) 757 8109</p>
+
+      <p>
+        <strong>Email :</strong>
+        <a href="mailto:emmanuellamatandakikosi1@gmail.com">emmanuellamatandakikosi1@gmail.com</a>
+      </p>
+
+      
+      <section class="bloc-liens-svg">
+        
+        <h2 class="ressources">Ressources externes</h2>
+              <p class="texte-liens-svg"> 
+                Explorez des inspirations visuelles et techniques à travers ces accès rapides 
+              </p>
+              
+              <p class="sources">Sources: les contenus externes proviennent de Youtube et GitHub.</p>
+              
+              <div class="contact-icons">
+        
+        <a href="https://www.youtube.com/" target="_blank" >
+            <svg  viewBox="0 0 180 120"  width ="200"  aria-label="Youtube">
+              
+              <rect x="15" y="20" width="110" height ="75" rx="22" fill ="#FF0000"></rect>
+              
+              
+              <polygon points="62 , 40 62 , 75 95 ,57.5" fill ="white"></polygon>
+              <polygon  class="arrow-svg" points="132 , 18 168 , 58 132 ,98" fill ="#FFD700"></polygon>
+            </svg>
+            
+            <p >Explorer des vidéos</p>
+        </a>
+
+        <a href="https://github.com/" target="_blank">
+
+            
+            <svg   viewBox="0 0 180 120"    width ="180" aria-label="GitHub">
+              
+            
+              
+              
+              <rect x="15" y="20" width="110" height="75" rx="22" fill ="#2f3f68"></rect> 
+                
+                <circle cx="52" cy="52" r="8"  fill ="white"></circle>
+              <circle cx="88" cy="52" r="8" fill ="white"></circle>
+              
+              <path d="M45 76 Q70  98 95  76"   stroke="white" stroke-width="6" fill ="none" ></path>
+              
+              <polygon class="arrow-svg" points="132, 18 168 , 58 132 , 98"  fill ="#FFD700"></polygon>
+            </svg>
+          <p >VOIR LE CODE</P>
+
+        </a>
+
+          </div>
+      
+      </section> 
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="nom">Nom complet :</label>
+          <input type="text" id="nom" name="nom" placeholder="Entrez votre nom complet" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Adresse e-mail :</label>
+          <input type="email" id="email" name="email" placeholder="Entrez votre adresse e-mail" required>
+        </div>
+
+        <div class="form-group">
+          <label for="sujet">Sujet :</label>
+          <select id="sujet" name="sujet">
+            <option>Demande d'information</option>
+            <option>Réservation</option>
+            <option>Question sur l'exposition</option>
+            <option>Autre</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message :</label>
+          <textarea id="message" name="message" rows="6" placeholder="Écrivez votre message ici..." required></textarea>
+        </div>
+
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+
+    <section class="queen-flame-section">
+      
+      <h2 class="experience">Expérience interactive</h2>
+      
+      <p class="queen-intro">
+        Une composition SVG animée pour enrichir l’expérience virtuelle du musée.
+      </p>
+    </section>
+
+     
+      
+      
+      <section class="lux-star-section">
+      <h2 class="décoration">Élément décoratif animé</h2>
+  <p class="lux-star-intro">
+    Une étoile élégante traverse la scène, disparaît, revient et laisse une traînée lumineuse raffinée.
+  </p>
+
+  <div class="lux-star-track">
+    <div class="lux-star-mover">
+      <svg class="lux-star-svg" viewBox="0 0 260 120" aria-label="Étoile luxe animée">
+        <defs>
+          <linearGradient id="gold1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#fff8dc"></stop>
+            <stop offset="35%" stop-color="#f7d24a"></stop>
+            <stop offset="70%" stop-color="#d4af37"></stop>
+            <stop offset="100%" stop-color="#fff2b3"></stop>
+          </linearGradient>
+
+          <linearGradient id="traiGold" x1="0%" y1="0%" x2="100%"  y2="0%">
+            
+            <stop offset="0%" stop-color="#000000" stop-opacity="0"></stop>
+            
+            
+            <stop offset="100%" stop-color="#fff4c8" stop-opacity="0.9"></stop>
+            
+            <stop offset="40%" stop-color="#d4af37" stop-opacity="0.4"></stop>
+              </linearGradient>
+
+           <linearGradient id="gold2" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ffd700"  stop-opacity ="0"></stop>
+            <stop offset="40%" stop-color="#d4af37"  stop-opacity ="0.4"></stop>
+            <stop offset="70%" stop-color="#b8962e"    stop-opacity ="1"></stop>
+            <stop offset="100%" stop-color="#fff4c8"    stop-opacity="1"></stop>
+          </linearGradient>
+
+
+        </defs>
+
+
+        <ellipse class="trail " cx="85" cy="60" rx="90" ry="14" fill="url(#traiGold)"></ellipse>
+        <ellipse class="trail" cx="120" cy="60" rx="55" ry="8" fill="url(#traiGold)"></ellipse>
+
+        
+       <circle class="particule p1"  cx="38" cy="52" r="3" ></circle>
+
+        <circle class="particule p2"  cx="58" cy="84" r="2.5" ></circle>
+
+        <circle class="particule p1"  cx="82" cy="44" r="2.2" ></circle>
+
+        <circle class="particule p1"  cx="108" cy="92" r="2.8" ></circle>
+
+        <circle class="particule p1"  cx="132" cy="58" r="2.3" ></circle>
+
+
+
+        <circle class="halo" cx="210" cy="60" r="30" fill="url(#glow)" ></circle>
+
+        <!-- étoile -->
+        <polygon
+          class="star"
+          points="210,24 220,50 248,50  226,66  234,94 210,77 186,94  194,66 172,50 200,50" fill ="#ffd700">
+        </polygon>
+      </svg>
+    </div>
+  </div>
+  
+</section>
+  </main>
+  <footer>
+    <p>Projet 1-IFT1005-Exposition virtuelle : L’art de la décoration événementielle à travers différentes influences culturelles.</p>
+             <p>© 2026-Emmanuella.kikosi Matanda-Matricule:20357066</p>
+  </footer>
+</body>
+</html>
